@@ -1,0 +1,15 @@
+NET "rgmii_rxd_1[0]" LOC=B11;
+NET "rgmii_rxd_1[1]" LOC=A10;
+NET "rgmii_rxd_1[2]" LOC=B10;
+NET "rgmii_rxd_1[3]" LOC=A9;
+NET "rgmii_rxc_1"    LOC=E10;
+NET "rgmii_rx_ctl_1" LOC=B12;
+NET "rgmii_txd_1[0]" LOC=A8;
+NET "rgmii_txd_1[1]" LOC=D8;
+NET "rgmii_txd_1[2]" LOC=G9;
+NET "rgmii_txd_1[3]" LOC=H9;
+NET "rgmii_txc_1"    LOC=B9;
+NET "rgmii_tx_ctl_1" LOC=H8;
+#Created by Constraints Editor (xc7k325t-ffg676-1) - 2016/10/28
+NET "rgmii_rxc_1" TNM_NET = rgmii_rxc_1;
+TIMESPEC TS_rgmii_rxc_1 = PERIOD "rgmii_rxc_1" 20 ns HIGH 50% INPUT_JITTER 60 ps;

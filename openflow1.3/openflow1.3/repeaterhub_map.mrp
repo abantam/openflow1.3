@@ -1,0 +1,38 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'repeaterhub'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7k325t-ffg676-1 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o repeaterhub_map.ncd repeaterhub.ngd repeaterhub.pcf 
+Target Device  : xc7k325t
+Target Package : ffg676
+Target Speed   : -1
+Mapper Version : kintex7 -- $Revision: 1.55 $
+Mapped Date    : Fri Oct 28 19:30:07 2016
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Security:12 - No 'xc7k325t' feature version 2013.10 was available (-5),
+ERROR:Map:258 - A problem was encountered attempting to get the license for this
+   architecture. 
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:9b - No 'ISE' feature version 2013.10 was available for part
+'xc7k325t'.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:56 - Part 'xc7k325t' is not a WebPack part.
+INFO:Security:7 - A feature for ISE was found but is for the wrong hostid.
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+INFO:Security:68a - user is shimizu, on host fedorawithnetfpga.
