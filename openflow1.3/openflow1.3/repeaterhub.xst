@@ -1,9 +1,6 @@
-set -tmpdir "xst/projnav.tmp"
-set -xsthdpdir "xst"
-run
--ifn repeaterhub.prj
--ofn repeaterhub
--ofmt NGC
+set -tmpdir "/home/shimizu/research/openflow1.3/openflow1.3/xst/projnav.tmp"
+set -xsthdpdir "/home/shimizu/research/openflow1.3/openflow1.3/xst"
+run -compileonly yes
 -p xc7k325t-1-ffg676
 -top repeaterhub
 -opt_mode Speed
@@ -50,3 +47,4 @@ run
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
+-ifn repeaterhub.prj

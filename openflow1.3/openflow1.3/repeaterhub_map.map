@@ -10,7 +10,7 @@ Target Device  : xc7k325t
 Target Package : ffg676
 Target Speed   : -1
 Mapper Version : kintex7 -- $Revision: 1.55 $
-Mapped Date    : Fri Oct 28 19:30:07 2016
+Mapped Date    : Mon Oct 31 17:45:46 2016
 
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 INFO:Security:56 - Part 'xc7k325t' is not a WebPack part.
@@ -30,7 +30,7 @@ Invalid host.
  The hostid of this system does not match the hostid
  specified in the license file.
 Feature:       ISE
-Hostid:        DISK_SERIAL_NUM=6e1930a4
+Hostid:        00006ccc0005
 License path:  /home/shimizu/.Xilinx/Xilinx
 (1).lic:/home/shimizu/.Xilinx/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/ISE//data/*.lic
 :/opt/Xilinx/14.7/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.7/

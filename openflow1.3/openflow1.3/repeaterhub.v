@@ -33,6 +33,10 @@ module repeaterhub(
 		data1 <= rgmii_rxd_1;
 	 end
 	 
+	 always @(negedge rgmii_rxc_1) begin
+		data1 <= rgmii_rxd_1;
+	 end
+	 
 	 assign rgmii_txd_1 = data1;
 
 

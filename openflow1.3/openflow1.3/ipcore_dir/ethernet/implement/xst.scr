@@ -1,0 +1,9 @@
+run
+-ifn xst.prj
+-ifmt mixed
+-ofn ethernet_example_design
+-top ethernet_example_design
+-sd ../../
+-p kintex7
+-keep_hierarchy no
+

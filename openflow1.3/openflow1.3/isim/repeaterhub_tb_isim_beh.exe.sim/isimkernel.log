@@ -1,0 +1,29 @@
+Command line:
+   repeaterhub_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  32883
+
+Mon Oct 31 20:17:15 2016
+
+
+ Elaboration Time: 0.05 sec
+
+ Current Memory Usage: 247.194 Meg
+
+ Total Signals          : 22
+ Total Nets             : 25
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 115
+Total Line Count : 38
+
+ Total Simulation Time: 0.09 sec
+
+ Current Memory Usage: 322.695 Meg
+
+Mon Oct 31 20:18:08 2016
+
